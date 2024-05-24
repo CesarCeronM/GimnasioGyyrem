@@ -1,0 +1,165 @@
+2024-04-11 13:41:08 ERROR CursoTallerDAO:31 - Fallo al insertar un curso taller:java.sql.SQLIntegrityConstraintViolationException: Column 'especificaciones' cannot be null
+2024-04-11 19:54:21 ERROR CursoTallerDAO:31 -  Excepcion SQL al registrar un curso taller: com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'especificaciones' at row 1
+2024-04-12 07:27:57 ERROR InstitucionEducativaDAO:39 -  Excepcion SQL al registrar una institucion educativa: com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'pais' at row 1
+2024-04-12 07:29:51 ERROR RepresentanteInstitucionDAO:40 -  Excepcion SQL al registrar un representante institucional: com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'contacto' at row 1
+2024-04-12 07:32:00 ERROR CuentaDAO:32 -  Excepcion SQL al registrar una cuenta: com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'contraseña' at row 1
+2024-04-12 07:33:42 ERROR UsuarioDAO:79 -  Excepcion SQL al registrar un Usuario: com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'correo' at row 1
+2024-04-12 07:39:36 ERROR CursoTallerDAO:59 -  Excepcion SQL al modificar un curso taller: com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'especificaciones' at row 1
+2024-04-12 07:39:57 ERROR CursoTallerDAO:59 -  Excepcion SQL al modificar un curso taller: java.sql.SQLIntegrityConstraintViolationException: Column 'especificaciones' cannot be null
+2024-04-12 18:11:34 ERROR CursoTallerDAO:31 -  Excepcion SQL al registrar un curso taller: java.sql.SQLIntegrityConstraintViolationException: Column 'especificaciones' cannot be null
+2024-04-15 17:41:40 ERROR CuentaDAO:32 -  Excepcion SQL al registrar una cuenta: java.sql.SQLIntegrityConstraintViolationException: Column 'nombreUsuario' cannot be null
+2024-04-15 17:41:41 ERROR UsuarioDAO:79 -  Excepcion SQL al registrar un Usuario: java.sql.SQLIntegrityConstraintViolationException: Column 'nombre' cannot be null
+2024-04-15 17:41:41 ERROR EstudianteColaboracionDAO:32 -  Excepcion SQL al agregar un estudiante a una colaboracion: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'idColaboracion, evaluacion) VALUES(0, 1, NULL)' at line 1
+2024-04-15 17:44:15 ERROR EstudianteColaboracionDAO:32 -  Excepcion SQL al agregar un estudiante a una colaboracion: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'idColaboracion, evaluacion) VALUES(0, 1, NULL)' at line 1
+2024-04-15 17:49:12 ERROR UsuarioDAO:114 -  Excepcion SQL al modificar un usuario: java.sql.SQLIntegrityConstraintViolationException: Column 'nombre' cannot be null
+2024-04-18 13:23:42 ERROR CuentaDAO:32 -  Excepcion SQL al registrar una cuenta: java.sql.SQLIntegrityConstraintViolationException: Column 'nombreUsuario' cannot be null
+2024-04-18 13:23:42 ERROR UsuarioDAO:79 -  Excepcion SQL al registrar un Usuario: java.sql.SQLIntegrityConstraintViolationException: Column 'nombre' cannot be null
+2024-04-18 13:23:43 ERROR ProfesorDAO:47 -  Excepcion SQL al registrar un Profesor: java.sql.SQLIntegrityConstraintViolationException: Column 'idProfesor' cannot be null
+2024-04-18 13:43:20 ERROR ProfesorDAO:113 -  Excepcion SQL al habilitar la cuenta de un Profesor: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'idProfesor = 5' at line 1
+2024-04-26 16:49:50 ERROR GestionCoilMain:24 -  Error al abrir la ventana inicial: javafx.fxml.LoadException: 
+/C:/Users/CESAR/Downloads/18-03/GestionCOIL/build/classes/gestioncoil/gui/FXMLInicioDeSesion.fxml
+
+2024-04-28 18:06:36 ERROR GestionCoilMain:24 -  Error al abrir la ventana inicial: javafx.fxml.LoadException: 
+/C:/Users/CESAR/Downloads/18-03/GestionCOIL/build/classes/gestioncoil/gui/FXMLInicioDeSesion.fxml
+
+2024-04-28 18:07:44 ERROR GestionCoilMain:24 -  Error al abrir la ventana inicial: javafx.fxml.LoadException: 
+/C:/Users/CESAR/Downloads/18-03/GestionCOIL/build/classes/gestioncoil/gui/FXMLInicioDeSesion.fxml
+
+2024-04-28 18:12:46 ERROR GestionCoilMain:24 -  Error al abrir la ventana inicial: javafx.fxml.LoadException: 
+/C:/Users/CESAR/Downloads/18-03/GestionCOIL/build/classes/gestioncoil/gui/FXMLInicioDeSesion.fxml
+
+2024-04-29 17:30:15 ERROR ProfesorDAO:49 -  Excepcion SQL al registrar un Profesor: java.sql.SQLIntegrityConstraintViolationException: Column 'idProfesor' cannot be null
+2024-04-29 17:30:15 ERROR ProfesorUVDAO:86 -  Excepcion SQL al registrar un ProfesorUV: java.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails
+2024-04-29 18:01:38 ERROR CuentaDAO:70 -  Excepcion SQL al registrar una cuenta: com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'nombreUsuario' at row 1
+2024-04-29 18:01:38 ERROR UsuarioDAO:80 -  Excepcion SQL al registrar un Usuario: java.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails
+2024-04-29 18:01:38 ERROR ProfesorDAO:49 -  Excepcion SQL al registrar un Profesor: java.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails
+2024-04-29 18:01:38 ERROR ProfesorUVDAO:86 -  Excepcion SQL al registrar un ProfesorUV: java.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails
+2024-04-29 18:23:48 ERROR UsuarioDAO:80 -  Excepcion SQL al registrar un Usuario: java.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails
+2024-04-29 18:23:48 ERROR ProfesorDAO:49 -  Excepcion SQL al registrar un Profesor: java.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails
+2024-04-29 18:23:48 ERROR ProfesorUVDAO:86 -  Excepcion SQL al registrar un ProfesorUV: java.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails
+2024-04-30 17:59:32 ERROR CuentaDAO:70 -  Excepcion SQL al registrar una cuenta: java.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails
+2024-04-30 17:59:32 ERROR ProfesorDAO:53 -  Error al registrar un profesor por error al registrar un usuario
+2024-04-30 17:59:32 ERROR ProfesorUVDAO:90 -  Error al registrar un profesorUv por error al registrar un profesor
+2024-04-30 18:20:46 ERROR ProfesorDAO:53 -  Error al registrar un profesor por error al registrar un usuario
+2024-04-30 18:20:46 ERROR ProfesorUVDAO:90 -  Error al registrar un profesorUv por error al registrar un profesor
+2024-04-30 18:39:07 ERROR CuentaDAO:71 -  Excepcion SQL al registrar una cuenta: java.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails
+2024-04-30 18:39:07 ERROR ProfesorDAO:53 -  Error al registrar un profesor por error al registrar un usuario
+2024-04-30 18:39:07 ERROR ProfesorUVDAO:90 -  Error al registrar un profesorUv por error al registrar un profesor
+2024-05-01 19:26:25 ERROR ProfesorDAO:53 -  Error al registrar un profesor por error al registrar un usuario
+2024-05-01 19:26:25 ERROR ProfesorUVDAO:90 -  Error al registrar un profesorUv por error al registrar un profesor
+2024-05-01 19:48:07 ERROR ProfesorDAO:57 -  Excepcion SQL al registrar un Profesor: java.sql.SQLIntegrityConstraintViolationException: Column 'idProfesor' cannot be null
+2024-05-01 19:48:07 ERROR ProfesorUVDAO:90 -  Error al registrar un profesorUv por error al registrar un profesor
+2024-05-01 19:55:48 ERROR ProfesorExtranjeroDAO:49 -  Error al registrar un profesorExtranjero por error al registrar un profesor
+2024-05-01 19:57:27 ERROR ProfesorUVDAO:90 -  Error al registrar un profesorUv por error al registrar un profesor
+2024-05-01 20:04:11 ERROR ProfesorExtranjeroDAO:49 -  Error al registrar un profesorExtranjero por error al registrar un profesor
+2024-05-01 20:25:47 ERROR ProfesorUVDAO:87 -  Error al registrar un profesorUv por error al registrar un profesor
+2024-05-05 17:40:24 ERROR ProfesorDAO:168 -  Excepcion SQL al consultar la lista de estudiantes registrados: java.sql.SQLException: Column 'idProfesor' not found.
+2024-05-06 14:03:42 ERROR FXMLinicioDeSesionController:159 -  Error al abrir la ventana registrar institucion: javafx.fxml.LoadException: 
+/C:/Users/CESAR/Downloads/18-03/GestionCOIL/build/classes/gestioncoil/gui/FXMLmostrarProfesores.fxml
+
+2024-05-06 14:04:21 ERROR FXMLinicioDeSesionController:159 -  Error al abrir la ventana registrar institucion: javafx.fxml.LoadException: 
+/C:/Users/CESAR/Downloads/18-03/GestionCOIL/build/classes/gestioncoil/gui/FXMLmostrarProfesores.fxml
+
+2024-05-06 18:46:39 ERROR FXMLinicioDeSesionController:159 -  Error al abrir la ventana registrar institucion: javafx.fxml.LoadException: 
+/C:/Users/CESAR/Downloads/18-03/GestionCOIL/build/classes/gestioncoil/gui/FXMLmostrarProfesores.fxml
+
+2024-05-06 18:48:45 ERROR FXMLinicioDeSesionController:159 -  Error al abrir la ventana registrar institucion: javafx.fxml.LoadException: 
+/C:/Users/CESAR/Downloads/18-03/GestionCOIL/build/classes/gestioncoil/gui/FXMLmostrarProfesores.fxml
+
+2024-05-06 18:49:24 ERROR FXMLinicioDeSesionController:159 -  Error al abrir la ventana registrar institucion: javafx.fxml.LoadException: 
+/C:/Users/CESAR/Downloads/18-03/GestionCOIL/build/classes/gestioncoil/gui/FXMLmostrarProfesores.fxml
+
+2024-05-06 18:49:34 ERROR FXMLinicioDeSesionController:159 -  Error al abrir la ventana registrar institucion: javafx.fxml.LoadException: 
+/C:/Users/CESAR/Downloads/18-03/GestionCOIL/build/classes/gestioncoil/gui/FXMLmostrarProfesores.fxml
+
+2024-05-06 18:57:09 ERROR FXMLinicioDeSesionController:159 -  Error al abrir la ventana registrar institucion: javafx.fxml.LoadException: 
+/C:/Users/CESAR/Downloads/18-03/GestionCOIL/build/classes/gestioncoil/gui/FXMLmostrarProfesores.fxml
+
+2024-05-12 16:20:57 ERROR FXMLinicioDeSesionController:159 -  Error al abrir la ventana registrar institucion: javafx.fxml.LoadException: 
+/C:/Users/CESAR/Downloads/18-03/GestionCOIL/build/classes/gestioncoil/gui/FXMLmostrarProfesores.fxml
+
+2024-05-12 16:21:42 ERROR FXMLinicioDeSesionController:159 -  Error al abrir la ventana registrar institucion: javafx.fxml.LoadException: 
+/C:/Users/CESAR/Downloads/18-03/GestionCOIL/build/classes/gestioncoil/gui/FXMLmostrarProfesores.fxml
+
+2024-05-12 16:24:09 ERROR FXMLinicioDeSesionController:159 -  Error al abrir la ventana registrar institucion: javafx.fxml.LoadException: 
+/C:/Users/CESAR/Downloads/18-03/GestionCOIL/build/classes/gestioncoil/gui/FXMLmostrarProfesores.fxml
+
+2024-05-12 16:26:54 ERROR FXMLinicioDeSesionController:159 -  Error al abrir la ventana registrar institucion: javafx.fxml.LoadException: 
+/C:/Users/CESAR/Downloads/18-03/GestionCOIL/build/classes/gestioncoil/gui/FXMLmostrarProfesores.fxml
+
+2024-05-12 18:50:54 ERROR ProfesorDAO:246 -  Excepcion SQL al obtener el tipo de profesor: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',idProfesor = 0' at line 1
+2024-05-12 18:50:54 ERROR FXMLinicioDeSesionController:145 -  Error al abrir la ventana actualizar profesor: javafx.fxml.LoadException: 
+/C:/Users/CESAR/Downloads/18-03/GestionCOIL/build/classes/gestioncoil/gui/FXMLactualizarProfesor.fxml
+
+2024-05-12 18:53:44 ERROR ProfesorDAO:246 -  Excepcion SQL al obtener el tipo de profesor: java.sql.SQLSyntaxErrorException: Unknown column 'p.tipo' in 'field list'
+2024-05-12 18:53:44 ERROR FXMLinicioDeSesionController:145 -  Error al abrir la ventana actualizar profesor: javafx.fxml.LoadException: 
+/C:/Users/CESAR/Downloads/18-03/GestionCOIL/build/classes/gestioncoil/gui/FXMLactualizarProfesor.fxml
+
+2024-05-12 18:56:35 ERROR FXMLinicioDeSesionController:145 -  Error al abrir la ventana actualizar profesor: javafx.fxml.LoadException: 
+/C:/Users/CESAR/Downloads/18-03/GestionCOIL/build/classes/gestioncoil/gui/FXMLactualizarProfesor.fxml
+
+2024-05-12 19:09:13 ERROR FXMLinicioDeSesionController:145 -  Error al abrir la ventana actualizar profesor: javafx.fxml.LoadException: 
+/C:/Users/CESAR/Downloads/18-03/GestionCOIL/build/classes/gestioncoil/gui/FXMLactualizarProfesor.fxml
+
+2024-05-12 19:59:05 ERROR CuentaDAO:99 -  Excepcion SQL al modificar una cuenta: java.sql.SQLIntegrityConstraintViolationException: Column 'nombreUsuario' cannot be null
+2024-05-12 20:03:07 ERROR CuentaDAO:99 -  Excepcion SQL al modificar una cuenta: java.sql.SQLIntegrityConstraintViolationException: Column 'nombreUsuario' cannot be null
+2024-05-12 21:53:46 ERROR ProfesorDAO:130 -  Excepcion SQL al habilitar la cuenta de un Profesor: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'idProfesor = 4' at line 1
+2024-05-14 16:42:25 ERROR FXMLinicioDeSesionController:122 -  Error al abrir la ventana actualizar institucion: javafx.fxml.LoadException: Error resolving onAction='#guardarCambios', either the event handler is not in the Namespace or there is an error in the script.
+/C:/Users/CESAR/Downloads/18-03/GestionCOIL/build/classes/gestioncoil/gui/FXMLactualizarInstitucion.fxml:37
+
+2024-05-20 16:05:35 ERROR CoordinadorCOILDAO:48 -  Excepcion SQL al registrar un coordinador: java.sql.SQLIntegrityConstraintViolationException: Column 'idCoordinadorCOIL' cannot be null
+2024-05-20 16:07:36 ERROR CoordinadorCOILDAO:45 -  Error al registrar un coordinador Coil por error al registrar un usuario
+2024-05-20 16:09:04 ERROR CoordinadorCOILDAO:48 -  Excepcion SQL al registrar un coordinador: java.sql.SQLIntegrityConstraintViolationException: Column 'idCoordinadorCOIL' cannot be null
+2024-05-20 16:09:54 ERROR CoordinadorCOILDAO:45 -  Error al registrar un coordinador Coil por error al registrar un usuario
+2024-05-20 18:39:27 ERROR ProfesorColaboracionDAO:32 -  Excepcion SQL al registrar un profesor local a una colaboracion: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'idProfesorLocal, idProfesorExtranjero) VALUES(0, 5, NULL)' at line 1
+2024-05-20 18:39:29 ERROR ColaboracionCOILDAO:89 -  Excepcion SQL al registrar una colaboracion: java.sql.SQLIntegrityConstraintViolationException: Column 'paisDelPar' cannot be null
+2024-05-20 19:24:25 ERROR ProfesorColaboracionDAO:32 -  Excepcion SQL al registrar un profesor local a una colaboracion: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'idProfesorLocal, idProfesorExtranjero) VALUES(0, 5, NULL)' at line 1
+2024-05-21 15:46:47 ERROR ProfesorColaboracionDAO:32 -  Excepcion SQL al registrar un profesor local a una colaboracion: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'idProfesorLocal, idProfesorExtranjero) VALUES(3, 5, NULL)' at line 1
+2024-05-21 15:46:50 ERROR FXMLinicioDeSesionController:216 -  Error al abrir la ventana menu: javafx.fxml.LoadException: Error resolving onAction='#actualizarProfesor', either the event handler is not in the Namespace or there is an error in the script.
+/C:/Users/CESAR/Downloads/18-03/GestionCOIL/build/classes/gestioncoil/gui/FXMLregistrarEstudiantes.fxml:40
+
+2024-05-21 15:56:51 ERROR ProfesorColaboracionDAO:32 -  Excepcion SQL al registrar un profesor local a una colaboracion: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'idProfesorLocal, idProfesorExtranjero) VALUES(5, 5, NULL)' at line 1
+2024-05-21 15:56:54 ERROR FXMLinicioDeSesionController:215 -  Error al abrir la ventana menu: javafx.fxml.LoadException: Error resolving onAction='#actualizarProfesor', either the event handler is not in the Namespace or there is an error in the script.
+/C:/Users/CESAR/Downloads/18-03/GestionCOIL/build/classes/gestioncoil/gui/FXMLregistrarEstudiantes.fxml:40
+
+2024-05-21 15:59:28 ERROR ProfesorColaboracionDAO:32 -  Excepcion SQL al registrar un profesor local a una colaboracion: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'idProfesorLocal, idProfesorExtranjero) VALUES(7, 5, NULL)' at line 1
+2024-05-21 16:00:43 ERROR FXMLinicioDeSesionController:215 -  Error al abrir la ventana menu: javafx.fxml.LoadException: Error resolving onAction='#actualizarProfesor', either the event handler is not in the Namespace or there is an error in the script.
+/C:/Users/CESAR/Downloads/18-03/GestionCOIL/build/classes/gestioncoil/gui/FXMLregistrarEstudiantes.fxml:40
+
+2024-05-21 16:16:13 ERROR ProfesorColaboracionDAO:32 -  Excepcion SQL al registrar un profesor local a una colaboracion: java.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails
+2024-05-21 17:36:12 ERROR ManejadorBaseDeDatos:70 -  Error al conectarse a la base de datos como administrador: com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+2024-05-21 17:40:30 ERROR EstudianteColaboracionDAO:33 -  Excepcion SQL al agregar un estudiante a una colaboracion: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'idColaboracion, evaluacion) VALUES(0, 14, NULL)' at line 1
+2024-05-21 17:40:31 ERROR EstudianteColaboracionDAO:33 -  Excepcion SQL al agregar un estudiante a una colaboracion: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'idColaboracion, evaluacion) VALUES(0, 14, NULL)' at line 1
+2024-05-21 18:02:55 ERROR EstudianteColaboracionDAO:33 -  Excepcion SQL al agregar un estudiante a una colaboracion: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'idColaboracion, evaluacion) VALUES(0, 15, NULL)' at line 1
+2024-05-21 18:03:01 ERROR EstudianteColaboracionDAO:33 -  Excepcion SQL al agregar un estudiante a una colaboracion: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'idColaboracion, evaluacion) VALUES(0, 15, NULL)' at line 1
+2024-05-21 18:03:02 ERROR EstudianteColaboracionDAO:33 -  Excepcion SQL al agregar un estudiante a una colaboracion: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'idColaboracion, evaluacion) VALUES(0, 15, NULL)' at line 1
+2024-05-21 18:03:03 ERROR EstudianteColaboracionDAO:33 -  Excepcion SQL al agregar un estudiante a una colaboracion: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'idColaboracion, evaluacion) VALUES(0, 15, NULL)' at line 1
+2024-05-22 18:36:16 ERROR GyyremMain:24 -  Error al abrir la ventana inicial: javafx.fxml.LoadException: 
+/C:/Users/CESAR/OneDrive/Documentos/NetBeansProjects/Gyyrem/build/classes/gyyrem/gui/FXMLinicioDeSesion.fxml:9
+
+2024-05-22 19:22:10 ERROR FXMLinicioDeSesionController:87 -  Error al abrir la ventana menu: javafx.fxml.LoadException: 
+/C:/Users/CESAR/OneDrive/Documentos/NetBeansProjects/Gyyrem/build/classes/gyyrem/gui/FXMLmenu.fxml:11
+
+2024-05-23 00:47:47 ERROR FXMLmenuController:153 -  Error al abrir la ventana menu: javafx.fxml.LoadException: 
+/C:/Users/CESAR/OneDrive/Documentos/NetBeansProjects/Gyyrem/build/classes/gyyrem/gui/FXMLverClases.fxml
+
+2024-05-23 00:49:35 ERROR FXMLmenuController:153 -  Error al abrir la ventana menu: javafx.fxml.LoadException: 
+/C:/Users/CESAR/OneDrive/Documentos/NetBeansProjects/Gyyrem/build/classes/gyyrem/gui/FXMLverClases.fxml
+
+2024-05-23 00:50:26 ERROR FXMLmenuController:153 -  Error al abrir la ventana ver clases: javafx.fxml.LoadException: 
+/C:/Users/CESAR/OneDrive/Documentos/NetBeansProjects/Gyyrem/build/classes/gyyrem/gui/FXMLverClases.fxml
+
+2024-05-23 00:52:20 ERROR FXMLmenuController:154 -  Error al abrir la ventana ver clases: javafx.fxml.LoadException: 
+/C:/Users/CESAR/OneDrive/Documentos/NetBeansProjects/Gyyrem/build/classes/gyyrem/gui/FXMLverClases.fxml
+
+2024-05-23 00:53:06 ERROR FXMLmenuController:154 -  Error al abrir la ventana ver clases: javafx.fxml.LoadException: 
+/C:/Users/CESAR/OneDrive/Documentos/NetBeansProjects/Gyyrem/build/classes/gyyrem/gui/FXMLverClases.fxml
+
+2024-05-23 02:28:24 ERROR FXMLmenuController:197 -  Error al abrir la ventana ver clases: javafx.fxml.LoadException: Error resolving onAction='#modificarClase', either the event handler is not in the Namespace or there is an error in the script.
+/C:/Users/CESAR/OneDrive/Documentos/NetBeansProjects/Gyyrem/build/classes/gyyrem/gui/FXMLverMiembros.fxml:30
+
+2024-05-23 09:41:39 ERROR ClaseDAO:276 -  Excepcion SQL al consultar una clase: java.sql.SQLException: Before start of result set
+2024-05-23 09:43:14 ERROR ClaseDAO:276 -  Excepcion SQL al consultar una clase: java.sql.SQLException: Before start of result set
+2024-05-23 10:02:02 ERROR ClaseDAO:276 -  Excepcion SQL al consultar una clase: java.sql.SQLException: Before start of result set

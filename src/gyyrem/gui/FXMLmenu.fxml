@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gyyrem.gui.FXMLmenuController">
+   <children>
+      <Label fx:id="lblTitulo" prefHeight="21.0" prefWidth="600.0" style="-fx-border-color: black;" text="          Menú">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <MenuBar fx:id="menuBar" layoutY="22.0" prefHeight="25.0" prefWidth="600.0" style="-fx-border-color: black;">
+         <menus>
+            <Menu fx:id="menuMiembros" mnemonicParsing="false" text="Miembros">
+               <items>
+                  <MenuItem fx:id="menuItemRegistrarMiembro" mnemonicParsing="false" onAction="#registrarMiembro" text="Registrar" />
+                  <MenuItem fx:id="menuItemModificarMiembro" mnemonicParsing="false" onAction="#modificarMiembro" text="Modificar" />
+                  <MenuItem fx:id="menuItemSuspenderMiembro" mnemonicParsing="false" onAction="#suspenderMiembro" text="Suspender" />
+                  <MenuItem fx:id="menuItemActivarMiembro" mnemonicParsing="false" onAction="#verMiembrosSuspendidos" text="Activar" />
+                  <MenuItem fx:id="menuItemVerMiembros" mnemonicParsing="false" onAction="#verMiembros" text="Ver miembros" />
+               </items>
+            </Menu>
+            <Menu fx:id="menuClases" mnemonicParsing="false" text="Clases">
+               <items>
+                  <MenuItem fx:id="menuItemRegistrarClase" mnemonicParsing="false" onAction="#registrarClase" text="Registrar" />
+                  <MenuItem fx:id="menuItemModificarClase" mnemonicParsing="false" onAction="#verClases" text="Modificar" />
+                  <MenuItem fx:id="menuItemVerClases" mnemonicParsing="false" onAction="#verClases" text="Ver clases" />
+               </items>
+            </Menu>
+            <Menu fx:id="menuPagos" mnemonicParsing="false" text="Pagos">
+               <items>
+                  <MenuItem fx:id="menuItemPagosPendientes" mnemonicParsing="false" onAction="#verPagosPendientes" text="Pagos pendientes" />
+                  <MenuItem fx:id="menuItemPagosRealizados" mnemonicParsing="false" onAction="#verPagosRealizados" text="Pagos realizados" />
+               </items>
+            </Menu>
+         </menus>
+      </MenuBar>
+      <Label fx:id="lblBienvenido" layoutX="111.0" layoutY="136.0" text="Bienvenido al gimnasio">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblNombreGimnasio" layoutX="239.0" layoutY="189.0" text="Gyyrem">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblInstrucciones" layoutX="99.0" layoutY="256.0" text="Selecciona una opción en el menú para continuar">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
